@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--arquivo css-->
+    <link rel="stylesheet" href="tentando.css">
+
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!--link de icones do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>insta</title>
+
+  </head>
+
+
+  
+<body class="body">
+
+        <!--cabeçalho-->
+        <header>
+            <!--barra superior-->
+            <nav class="navbar navbar-light nav-top">
+                <div class="container-fluid nav-container">
+                    
+                    <!--âncora clicavel-->
+                    <a class="navbar-brand" href="https://www.instagram.com/i_cafe.maia/" target="_blank">
+
+
+                        <!--imagem da logo instagram-->
+                        <img src="https://raw.githubusercontent.com/MichelliBrito/curso-html-css-bootstrap/master/images/logo.png" style="max-width: 130px; max-height: 80px;" alt="instagram_logo">
+                    </a>
+
+
+                    <!--barra de pesquisa-->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    </form>
+
+
+                    <!--icones-->
+                    <div style="width: 30%;">
+                        <i class="bi bi-house-door icons"></i>
+                        <i class="bi bi-inbox icons"></i>
+                        <i class="bi bi-compass icons"></i>
+                        <i class="bi bi-heart icons"></i>
+                        <img class="img-nav" src="https://i.pinimg.com/originals/56/a1/2a/56a12a069dc6476b18ae983025e674c4.jpg" style="width: 30px; border-radius: 100%;">
+                    </div>
+                    
+                </div>
+            </nav>
+        </header>
+    
+
+
+  
+
+       
+<!--main-->
+    <section>
+
+        <!--1° container-->
+        <div class="container">
+
+            <!--1° ROW-->
+            <div class="row">
+
+
+                <!--x1° coluna sem valor // se a tela for media(md) tenha o valor 2-->
+                <div class="col-0 col-md-2">
+                </div>
+
+
+                <!--x2° coluna com valor de 12  // se a tela for media(md) tenha o valor 8-->
+                <div class="col-12 col-md-8">
+
+                    <!--2° container-->
+                    <div class="container">
+
+                        <!--2° ROW-->
+                        <div class="row" style="padding-top: 20px;"> <!--espaçamento da foto na parte de cima 20px-->
+
+                            
+                            <!--x|x1°coluna interna-->
+                            <div class="col-3">
+                                <img class="img-profile" src="img/bart_2.jpg" alt="imagem de perfil">
+                            </div>
+                            
+
+                            <!--x|x2°coluna interna-->
+                            <div class="col-7">
+
+                                <!--3° ROW-->
+                                <div class="row" style="padding: 20px; padding-bottom: 10px;">
+
+
+                                    <!--x|x|x1.a° outra coluna interna-->
+                                    <div class="col-8 col-lg-5">
+                                        <h2 class="username">café_maia</h2>
+                                    </div>
+
+
+                                    <!--x|x|x2.a° outra coluna interna-->
+                                    <div class="col-4 col-lg-6">
+                                        <button class="btn btn-outline-secondary" type="button">
+                                            Editar Perfil
+                                        </button>
+                                    </div>
+
+                                </div><!--ROW3-->
+    
+
+                                <!--4° ROW-->
+                                <div class="row">
+
+
+                                    <!--x|x|x1.b° outra coluna interna-->
+                                    <div class="col-4">
+                                        <p class="profile-datas">
+                                            <strong>199</strong> publicações
+                                        </p>
+                                    </div>
+
+
+                                    <!--x|x|x2.b° outra coluna interna-->
+                                    <div class="col-4">
+                                        <p>
+                                            <strong>5.342</strong> seguidores
+                                        </p>
+                                    </div>
+
+
+                                    <!--x|x|x3.b° outra coluna interna-->
+                                    <div class="col-4">
+                                        <p>
+                                            <strong>666</strong> seguindo
+                                        </p>
+                                    </div>
+
+                                </div><!--ROW4-->
+    
+
+                                <!--5° ROW-->
+                                <div class="row">
+
+
+                                    <div class="col-12">
+                                        <h1 class="name">
+                                            <strong>Ayrton Maia</strong>
+                                        </h1>
+                                    </div>
+
+                                </div><!--ROW5-->
+
+
+                                <!--6° ROW-->
+                                <div class="row">
+
+
+                                    <div class="col-12">
+                                        <p class="profile-desc">Linguagem C básico | HTML5 & CSS3 Básico</p>
+                                    </div>
+
+                                </div><!--ROW6-->
+    
+                                
+                            </div><!--col7-->
+                               
+
+                            <!--x|x3°coluna interna-->
+                            <div class="col-2">
+                            </div>
+
+
+                        </div><!--ROW2-->
+
+                    </div><!--container2-->
+
+
+
+
+                    <!--ainda dentro do col12-->
+                    <!---------Stories--------->
+                    <div style="padding-top: 0px;">
+                        <!--1° ROW-->
+                        <div class="row">
+
+
+                            <div class="col-2">
+                                <canvas id="myCrl1"></canvas>
+                            </div>
+
+
+                            <div class="col-2">
+                                <canvas id="myCrl2"></canvas>
+                            </div>
+
+
+                            <div class="col-2">
+                                <canvas id="myCrl3"></canvas>
+                            </div>
+
+                        </div><!--ROW1-->
+                    </div>
+
+                    <div style="padding-bottom: 40px;">
+
+                        <!--2° ROW-->
+                        <div class="row">
+
+                            <div class="col-2 stories"> Checklist</div>
+                            <div class="col-2 stories"> Youtube</div>
+                            <div class="col-2 stories"> Developer</div>
+
+                        </div><!--ROW2-->
+
+                    </div>
+
+
+
+
+                    <!--------Line-------->
+                    <hr size="3" width="100%" color="#EEEEEE" style="margin: 0%;">
+
+
+                    <!--------Nav Feed-------->
+                    <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active nav-link-1"
+                            id="home-tab"
+                            data-bs-toggle="tab"
+                            href="#home"
+                            role="tab"
+                            aria-controls="home"
+                            aria-selected="true">
+                                <i class="bi bi-grid-3x3"></i> PUBLICAÇÕES
+                            </a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link nav-link-2"
+                            id="profile-tab"
+                            data-bs-toggle="tab"
+                            href="#profile"
+                            role="tab"
+                            aria-controls="profile"
+                            aria-selected="false">
+                                <i class="bi bi-file-person"></i> MARCADOS
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+
+                    <!--------Card Feed-------->
+                    <div class="tab-content" id="myTabContent">
+                        
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+                            <!--1° ROW-->
+                            <div class="row" style="padding-bottom: 25px;">
+                                
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://i.pinimg.com/564x/3e/d6/1a/3ed61aff94f6d38842c768959bbb7a63.jpg" alt="bart">
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://i.pinimg.com/564x/3f/7b/1c/3f7b1c63a8226a95c19b8c724a02a607.jpg" alt="lisa">
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://pbs.twimg.com/profile_images/699087744564244480/yFPZJHgT_400x400.jpg" alt="maggie" >
+                                    </div>
+                                </div>
+
+                            </div><!--ROW1-->
+
+
+
+
+
+                            <!--2° ROW-->
+                            <div class="row" style="padding-bottom: 25px;">
+
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://play-lh.googleusercontent.com/9JPblXMNdne8LeK7YjROs0re-JuflAwN4epg9_b8gmusqXc9ihDKsbFEO98tE0rRtWU" alt="homer">
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://pbs.twimg.com/profile_images/1176961268/marge-simpson-with-blue-hair-beehive2_400x400.jpg" alt="marge">
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://minilua.net/wp-content/uploads/2019/07/Santas-Little-Helper-1.jpg" alt="ajudante de papai noel">
+                                    </div>
+                                </div>
+
+                            </div><!--ROW2-->
+
+
+
+
+
+                            <!--3° ROW-->
+                            <div class="row" style="padding-bottom: 25px;">
+
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://i1.sndcdn.com/artworks-000299322228-vsl4ed-t500x500.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <div class="card">
+
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <div class="card">
+                                        
+                                    </div>
+                                </div>
+
+                            </div><!--ROW3-->
+
+
+                        </div><!--tab pane-->
+                    </div><!--tab content-->
+
+
+
+
+
+
+                </div><!--col12-->
+
+
+                <!--x3° coluna sem valor// se a tela for media(md) tenha o valor 2-->
+                <div class="col-0 col-md-2">
+                </div>
+
+
+
+          
+            </div><!--ROW1-->
+
+        </div><!--container1-->
+
+    </section>
+
+
+
+    <!--JS para os destaques do instagram (o canvas no código)-->
+    <script text="text/javascript">
+        var crl1 = document.getElementById('myCrl1').getContext('2d');
+
+        crl1.beginPath();
+        crl1.arc(60, 100, 40, 0, 2 * Math.PI);
+        crl1.fillStyle = '#00ACC1';
+        crl1.fill();
+        crl1.linewidth = 5;
+        crl1.strokeStyle = '#dbdbdb';
+        crl1.stroke;
+
+        var crl2 = document.getElementById('myCrl2').getContext('2d');
+
+        crl2.beginPath();
+        crl2.arc(60, 100, 40, 0, 2 * Math.PI);
+        crl2.fillStyle = '#F8BBD0';
+        crl2.fill();
+        crl2.linewidth = 5;
+        crl2.strokeStyle = '#dbdbdb';
+        crl2.stroke;
+
+        var crl3 = document.getElementById('myCrl3').getContext('2d');
+
+        crl3.beginPath();
+        crl3.arc(60, 100, 40, 0, 2 * Math.PI);
+        crl3.fillStyle = '#E91E63';
+        crl3.fill();
+        crl3.linewidth = 5;
+        crl3.strokeStyle = '#dbdbdb';
+        crl3.stroke;
+
+
+
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+
+
+    </script>
+
+  </body>
+</html>
